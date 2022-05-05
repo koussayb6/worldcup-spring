@@ -29,7 +29,6 @@ public class EquipeController {
     @Resource
     private EquipeServiceImpl equipeService;
 
-	@PreAuthorize("hasRole('ROLE_ADMIN')")
     @GetMapping
     public List<Equipe> findAll() {
         return equipeService.findAll();
