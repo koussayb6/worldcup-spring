@@ -1,0 +1,10 @@
+package world.cup.models;
+
+public enum Categorie {SELECTIONNEUR,
+	STAFF_TECHNIQUE,
+	STAFF_MEDICAL,
+	FONCTION_SUPPORT,
+	RESPONSABLE_ADMINISTRATIF,
+	MEDIAS
+
+}
